@@ -12,7 +12,7 @@ Analyzes suspicious emails for phishing indicators and returns:
 
 ## Why I built this
 
-Phishing attacks are one of the most common entry points for cybersecurity breaches. This tool demonstrates how large language models can be applied to real-world threat detection — combining my background in forensic case investigation with my studies in Cybersecurity and Applied AI.
+Phishing attacks are one of the most common entry points for cybersecurity breaches. This tool demonstrates how large language models can be applied to real-world threat detection, combining my background in forensic case investigation with my studies in Cybersecurity and Applied AI.
 
 ## Tech stack
 
