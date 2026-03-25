@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Phishing Email Detector</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div class="container">
+    <h1>Phishing Email Detector</h1>
+    <p class="subtitle">Paste a suspicious email below to analyze it for phishing indicators.</p>
+
+    <div class="input-section">
+      <input type="text" id="sender" placeholder="Sender email address (e.g. support@paypa1.com)">
+      <input type="text" id="subject" placeholder="Email subject line">
+      <textarea id="body" placeholder="Paste the email body here..."></textarea>
+      <button id="analyzeBtn">Analyze Email</button>
+    </div>
+
+    <div class="results-section" id="results" style="display:none;">
+      <div class="verdict-box" id="verdictBox">
+        <span id="verdictLabel"></span>
+        <span id="confidenceLabel"></span>
+      </div>
+      <p id="summary"></p>
+      <div id="indicators"></div>
+    </div>
+
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>
